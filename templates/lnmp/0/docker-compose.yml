@@ -1,0 +1,13 @@
+version: '2'
+services:
+  crmtest:
+    image: zhuxiaowei/lnmp:1.0
+    environment:
+      SERVER_NAME: crmtest.test.test
+      WEB_SITE: /data/www/public
+    stdin_open: true
+    volumes:
+    - /data/zjtest/bkqw_crm:/data/www
+    tty: true
+    ports:
+    - 618:80/tcp
