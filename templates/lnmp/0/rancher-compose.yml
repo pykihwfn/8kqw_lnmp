@@ -6,12 +6,19 @@ services:
 
 catalog:
   name: zhuxiaowei
-  version: 1.0.0
+  version: 1.0
   description: escription of the versioned template of the Catalog Entry
   upgrade_from: "1.0.0"  
   questions:
     - variable:
-      label: ABC
-      description:  请输入
-      default: 123
+      label: SERVER_NAME
+      description:  站点的域名
+      default: test.8kqw.com
       type: string
+      
+    - variable:
+      label: WEB_SITE
+      description: nginx站点中项目的根目录
+      default: /data/www/public
+      type: string
+      
