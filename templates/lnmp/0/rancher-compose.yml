@@ -8,7 +8,7 @@ catalog:
   name: zhuxiaowei
   version: 1.0
   description: escription of the versioned template of the Catalog Entry
-  upgrade_from: "1.0.0"  
+  upgrade_from: "1.0"  
   questions:
     - variable:
       label: SERVER_NAME

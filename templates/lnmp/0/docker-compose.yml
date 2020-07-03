@@ -6,8 +6,5 @@ services:
       SERVER_NAME: crmtest.test.test
       WEB_SITE: /data/www/public
     stdin_open: true
-    volumes:
-    - /data/zjtest/bkqw_crm:/data/www
     tty: true
-    ports:
-    - 620:80/tcp
+    
