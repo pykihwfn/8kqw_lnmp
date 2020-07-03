@@ -10,4 +10,4 @@ services:
     - /data/zjtest/bkqw_crm:/data/www
     tty: true
     ports:
-    - 618:80/tcp
+    - 620:80/tcp
