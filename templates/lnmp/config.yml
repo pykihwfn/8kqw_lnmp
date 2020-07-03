@@ -1,8 +1,7 @@
-name: # Name of the Catalog Entry
-description: 
-  # Description of the Catalog Entry
+name: 8kqw_lnmp
+description:  LNMP
 version: # Version of the Catalog to be used
 category: # Category to be used for searching catalog entries
-maintainer: # The maintainer of the catalog entry
+maintainer: zhuxiaowei
 license: # The license
 projectURL: # A URL related to the catalog entry
