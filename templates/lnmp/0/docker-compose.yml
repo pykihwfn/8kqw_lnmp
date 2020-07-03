@@ -1,9 +1,9 @@
 version: '2'
 services:
-  crmtest:
+  web1:
     image: zhuxiaowei/lnmp:1.0
     environment:
-      SERVER_NAME: crmtest.test.test
+      SERVER_NAME: test.test.test
       WEB_SITE: /data/www/public
     stdin_open: true
     tty: true
