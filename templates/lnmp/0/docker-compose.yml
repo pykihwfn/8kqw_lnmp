@@ -5,5 +5,3 @@ web1:
     WEB_SITE: ${WEB_SITE2}
   stdin_open: true
   tty: true
-  volumes:
-    - ${VOLUMES2}

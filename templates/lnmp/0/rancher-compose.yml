@@ -11,7 +11,3 @@
       label: WebSite
       description: nginx站点中项目的根目录
       type: "string"
-    - variable: "VOLUMES2"
-      label: Volumes
-      description: Volumes example: /data/nginx:/data/www
-      type: "string"
