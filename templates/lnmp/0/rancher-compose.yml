@@ -11,13 +11,13 @@ catalog:
   upgrade_from: "1.0"  
   questions:
     - variable: "SERVER_NAME"
-      label: SERVER_NAME
+      label: ServerName
       description:  站点的域名
       default: test.8kqw.com
       type: string
       
     - variable: "WEB_SITE"
-      label: WEB_SITE
+      label: WebSite
       description: nginx站点中项目的根目录
       default: /data/www/public
       type: string
