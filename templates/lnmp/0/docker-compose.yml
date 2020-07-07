@@ -3,8 +3,12 @@ services:
   web1:
     image: zhuxiaowei/lnmp:1.0
     environment:
-      SERVER_NAME: test.test.test
-      WEB_SITE: /data/www/public
+      SERVER_NAME: ${SERVER_NAME}
+      WEB_SITE: ${WEB_SITE}
     stdin_open: true
     tty: true
+    volumes:
+    - ${VOLUMES}
+    ports:
+    - ${PORT}:80/tcp
     

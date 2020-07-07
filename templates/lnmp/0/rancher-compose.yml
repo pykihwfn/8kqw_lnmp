@@ -10,15 +10,27 @@ catalog:
   description: escription of the versioned template of the Catalog Entry
   upgrade_from: "1.0"  
   questions:
-    - variable:
+    - variable: "SERVER_NAME"
       label: SERVER_NAME
       description:  站点的域名
       default: test.8kqw.com
       type: string
       
-    - variable:
+    - variable: "WEB_SITE"
       label: WEB_SITE
       description: nginx站点中项目的根目录
       default: /data/www/public
       type: string
+      
+    - variable: "VOLUMES"
+      label: volumes
+      description: 挂载点，例如:/data/nginx_data:/data/www/public
+      default: /data/nginx_data:/data/www
+      type: string
+      
+    -variable: "PORT"
+      label: PORT
+      description: 映射到宿主节点上的端口
+      default: 80
+      type: int
       
