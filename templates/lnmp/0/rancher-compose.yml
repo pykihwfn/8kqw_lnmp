@@ -13,11 +13,11 @@ catalog:
     - variable: "SERVER_NAME"
       label: ServerName
       description:  站点的域名
-      default: test.8kqw.com
-      type: string
+      default: ""
+      type: "string"
       
     - variable: "WEB_SITE"
       label: WebSite
       description: nginx站点中项目的根目录
-      default: /data/www/public
-      type: string
+      default: ""
+      type: "string"
