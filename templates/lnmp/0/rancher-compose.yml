@@ -16,6 +16,6 @@
       description: "the public port thant listen on node"
       type: "int"
     - variable: "VOLUMES2"
-      label: "web data dir"
+      label: "Volumes"
       description: "nginx data directory"
       type: "string"
