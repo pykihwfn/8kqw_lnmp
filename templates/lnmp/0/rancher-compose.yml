@@ -1,23 +1,13 @@
-version: '2'
-services:
-  crmtest:
-    scale: 1
-    start_on_create: true
-
-catalog:
-  name: zhuxiaowei
-  version: 1.0
+.catalog:
+  name: "LNMP SERVER"
   description: escription of the versioned template of the Catalog Entry
-  upgrade_from: "1.0"  
+  version: "v1.0"
   questions:
-    - variable: "SERVER_NAME"
+    - variable: "SERVER_NAME2"
       label: ServerName
       description:  站点的域名
-      default: ""
-      type: "string"
-      
-    - variable: "WEB_SITE"
+      type: "string"     
+    - variable: "WEB_SITE2"
       label: WebSite
       description: nginx站点中项目的根目录
-      default: ""
       type: "string"
