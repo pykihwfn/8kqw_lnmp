@@ -7,6 +7,4 @@ services:
       WEB_SITE: ${WEB_SITE}
     stdin_open: true
     tty: true
-    ports:
-    - ${PORT}:80/tcp
     
