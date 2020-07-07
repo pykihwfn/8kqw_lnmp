@@ -3,8 +3,8 @@ services:
   web1:
     image: zhuxiaowei/lnmp:1.0
     environment:
-      SERVER_NAME: ${SERVER_NAME}
-      WEB_SITE: ${WEB_SITE}
+      SERVER_NAME:${SERVER_NAME}
+      WEB_SITE:${WEB_SITE}
     stdin_open: true
     tty: true
     
