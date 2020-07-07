@@ -5,3 +5,5 @@ web1:
     WEB_SITE: ${WEB_SITE2}
   stdin_open: true
   tty: true
+  ports:
+    - ${PUBLIC_PORT2}:80/tcp

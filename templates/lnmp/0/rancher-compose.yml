@@ -11,3 +11,7 @@
       label: WebSite
       description: nginx站点中项目的根目录
       type: "string"
+    - variable: "PUBLIC_PORT2"
+      label: "public_port"
+      description: "the public port thant listen on node"
+      type: "int"
