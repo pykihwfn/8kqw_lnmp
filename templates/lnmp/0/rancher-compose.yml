@@ -15,3 +15,7 @@
       label: "public_port"
       description: "the public port thant listen on node"
       type: "int"
+    - variable: "VOLUMES2"
+      label: "web data dir"
+      description: "nginx data directory"
+      type: "string"
